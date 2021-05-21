@@ -1,0 +1,35 @@
+:root {
+    --primary-white: rgb(228, 228, 228);
+    --primary-orange: #f9ab00;
+    --primary-dark: rgba(255, 255, 255, 0);
+}
+
+nav a.nav-link {
+    letter-spacing: 0.0375rem;
+    cursor: pointer;
+}
+nav ul li {
+    text-transform: uppercase;
+}
+#navbar__toggler {
+    background-color: var(--primary-white);
+    margin-right: 8px;
+}
+
+.navbar-nav > li > a {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    color: var(--primary-white) !important;
+    padding: 8px 0px;
+    border-top: 0.1875rem solid var(--primary-dark);
+}
+
+.navbar-nav > li > a:hover {
+    border-top: 0.1875rem solid var(--primary-orange);
+}
+
+/* might delete the code below. */
+.navbar-nav > li > a.active,
+.navbar-nav > li > a.active:focus {
+    border-top: 0.1875rem solid var(--primary-orange);
+}
