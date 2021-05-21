@@ -1,5 +1,7 @@
 import React from "react";
 import "./Navbar.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEllipsisH } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
     return (
@@ -14,7 +16,7 @@ const Navbar = () => {
                 aria-expanded="false"
                 aria-label="Toggle navigation"
             >
-                <span className="navbar-toggler-icon"></span>
+                <FontAwesomeIcon icon={faEllipsisH} />
             </button>
             <div
                 className="collapse navbar-collapse"
