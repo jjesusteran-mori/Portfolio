@@ -1,7 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEllipsisH } from "@fortawesome/free-solid-svg-icons";
+import { faEllipsisV } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
     return (
@@ -16,7 +16,7 @@ const Navbar = () => {
                 aria-expanded="false"
                 aria-label="Toggle navigation"
             >
-                <FontAwesomeIcon icon={faEllipsisH} />
+                <FontAwesomeIcon icon={faEllipsisV} />
             </button>
             <div
                 className="collapse navbar-collapse"
@@ -45,7 +45,7 @@ const Navbar = () => {
                     </li>
                     <li className="nav-item">
                         <a className="nav-link" href="#">
-                            Contacts
+                            Contact me
                         </a>
                     </li>
                 </ul>
