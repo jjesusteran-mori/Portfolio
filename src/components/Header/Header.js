@@ -14,9 +14,10 @@ const Header = () => {
                             "HTML",
                             "CSS",
                             "Javascript",
-                            "React",
-                            "Node",
+                            "MongoDB",
                             "Express",
+                            "ReactJS",
+                            "NodeJS",
                         ]}
                         typeSpeed={80}
                         backSpeed={40}

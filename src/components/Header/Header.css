@@ -1,7 +1,7 @@
 /* --------------------wraper--------------------- */
 .header-wraper {
     position: relative;
-    background: url("../../web-keyboard.jpg") no-repeat;
+    background: url("../../utils/images/web-keyboard.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     height: 95vh;
