@@ -35,11 +35,12 @@
 
 /* --------------------header main btn--------------------- */
 .btn-main-offer {
-    border: 1px solid var(--primary-red);
-    text-transform: uppercase;
-    border-radius: 0;
-    padding: 0.62rem 0.75rem 0.75rem 0.75rem;
+    border: 2px solid var(--primary-red);
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
     color: var(--primary-white);
+    text-transform: uppercase;
+    padding: 0.62rem 0.75rem 0.75rem 0.75rem;
     margin: 2rem;
     text-decoration: none;
 }

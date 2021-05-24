@@ -2,10 +2,14 @@
     font-family: "Roboto Condensed", sans-serif;
 }
 
+/* --------------------colors--------------------- */
 :root {
-    --primary-white: rgb(228, 228, 228);
+    --primary-white: rgb(227, 226, 226);
+    --primary-light-grey: #dedcdc;
+    --primary-grey: #ccd1d9;
+    --primary-dark-grey: #666666;
     --primary-orange: #f9ab00;
-    --primary-dark: rgba(255, 255, 255, 0);
+    --primary-dark: rgb(52, 58, 64);
     --primary-red: #ef4035;
     --primary-hover-red: #f33501;
 }
