@@ -15,11 +15,14 @@
     color: var(--primary-white);
 }
 .services .box {
-    height: 16rem;
+    height: 18rem;
     border-bottom: 0.3rem solid var(--primary-orange);
     padding: 0.6rem;
     margin-bottom: 1.8rem;
     background: var(--primary-white);
+    transition: 0.4s ease-in-out;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
 }
 .services .box:hover {
     background: var(--primary-orange);

@@ -63,6 +63,10 @@
     color: var(--primary-red);
     font-weight: 500;
 }
+.timeline-block-left h3 {
+    display: flex;
+    justify-content: flex-end;
+}
 /* --------------------media-------------------- */
 @media (max-width: 768px) {
     .experience-wrapper .container {

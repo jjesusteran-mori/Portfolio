@@ -1,0 +1,51 @@
+/* --------------Portfolipo-------------- */
+.portfolio-wrapper {
+    background: var(--primary-light-grey);
+    padding: 2rem 0;
+}
+.portfolio-image-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 1rem;
+}
+.image-box-wrapper {
+    display: flex;
+    justify-content: center;
+}
+.portfolio-image {
+    width: 15rem;
+    height: 10rem;
+    border: 1px solid var(--primary-orange);
+    padding: 0.5rem;
+}
+
+/* --------------Overflow Box-------------- */
+.overflow {
+    position: absolute;
+    opacity: 0;
+    background: var(--primary-black);
+    width: 15rem;
+    height: 10rem;
+    top: 0;
+    border: 1px solid var(--primary-red);
+    cursor: pointer;
+}
+
+.portfolio-image-box:hover .overflow {
+    opacity: 40%;
+    transition: 0.3s ease-in-out;
+}
+
+.portfolio-icon {
+    position: absolute;
+    opacity: 0;
+    color: var(--primary-orange);
+    font-size: 2rem;
+}
+.portfolio-image-box:hover .portfolio-icon {
+    opacity: 90%;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
