@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Header from "./components/Header/Header";
 import AboutMe from "./components/AboutMe/AboutMe";
 import Experience from "./components/Experience/Experience";
+import Services from "./components/Services-/Services";
 
 function App() {
     return (
@@ -16,11 +17,7 @@ function App() {
                 params={{
                     particles: {
                         number: {
-                            value: 60,
-                            density: {
-                                enable: true,
-                                value: 900,
-                            },
+                            value: 30,
                         },
                         shape: {
                             type: "circle",
@@ -35,6 +32,7 @@ function App() {
             <Navbar />
             <Header />
             <AboutMe />
+            <Services />
             <Experience />
         </>
     );

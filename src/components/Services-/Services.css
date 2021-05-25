@@ -1,0 +1,56 @@
+.services {
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 2rem;
+    background: var(--primary-light-grey);
+}
+.services h1 {
+    color: var(--primary-dark);
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+.services .icon {
+    font-size: 1.8rem;
+    color: var(--primary-white);
+}
+.services .box {
+    height: 16rem;
+    border-bottom: 0.3rem solid var(--primary-orange);
+    padding: 0.6rem;
+    margin-bottom: 1.8rem;
+    background: var(--primary-white);
+}
+.services .box:hover {
+    background: var(--primary-orange);
+    border-bottom: 0.3rem solid var(--primary-dark);
+}
+.circle {
+    background: var(--primary-orange);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    margin: 0.3rem auto;
+}
+
+.services .box:hover .icon {
+    color: var(--primary-dark);
+}
+.services .box:hover .circle {
+    background: var(--primary-white);
+}
+.services .box:hover p {
+    color: var(--primary-white);
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.row h3 {
+    display: flex;
+    justify-content: center;
+}
