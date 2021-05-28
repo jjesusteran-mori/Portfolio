@@ -49,3 +49,69 @@
     transition: 0.3s ease-in-out;
     cursor: pointer;
 }
+
+/* -------------popup box--------------- */
+.portfolio-image-popupbox {
+    width: 45rem;
+    padding: 0.8rem;
+}
+.is-active .popupbox-wrapper {
+    border-radius: 1rem;
+}
+.popupbox-wrapper .popupbox-titleBar,
+.popupbox-wrapper .popupbox-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.popupbox-wrapper .popupbox-titleBar {
+    font-size: 1.5rem;
+}
+
+.portfolio-link-popupbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.portfolio-link-popupbox a {
+    padding: 0 1rem;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+.hyper-link {
+    cursor: pointer;
+    color: var(--primary-black);
+    border: 1px solid var(--primary-red);
+    border-radius: 8px;
+    text-transform: uppercase;
+    margin: 0.5rem 1.5rem;
+}
+.hyper-link:hover {
+    background-color: var(--primary-red);
+    color: var(--primary-white);
+}
+
+@media (max-width: 768px) {
+    .about-me__container {
+        height: 20rem;
+    }
+    .about-me__container p {
+        padding: 2rem 0;
+    }
+    .portfolio-image-popupbox {
+        width: 100%;
+    }
+}
+
+@media (max-height: 500px) {
+    .popupbox-wrapper {
+        height: 100%;
+    }
+    .portfolio-image-popupbox {
+        width: 60%;
+    }
+}

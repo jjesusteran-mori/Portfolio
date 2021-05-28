@@ -6,6 +6,7 @@
     position: relative;
     padding: 3.125rem 0;
     overflow: hidden;
+    font-size: 1.1rem;
 }
 
 .experience h1 {
@@ -84,5 +85,9 @@
         float: none;
         direction: ltr;
         width: 100%;
+    }
+    .timeline-block-left h3 {
+        display: flex;
+        justify-content: flex-start;
     }
 }
