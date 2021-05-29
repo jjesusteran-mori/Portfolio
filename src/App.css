@@ -1,18 +1,20 @@
 * {
     font-family: "Roboto Condensed", sans-serif;
+    box-sizing: border-box;
 }
 
 /* --------------------colors--------------------- */
 :root {
     --primary-white: rgb(246, 242, 242);
     --primary-light-grey: #dedcdc;
-    --primary-grey: #ccd1d9;
+    --primary-grey: #c5c6c8;
     --primary-dark-grey: #666666;
     --primary-orange: #f9ab00;
     --primary-dark: rgb(52, 58, 64);
     --primary-red: #ef4035;
     --primary-hover-red: #f33501;
     --primary-black: #3a3a3a;
+    --primary-green: rgb(4, 205, 4);
 }
 
 /* --------------------particles--------------------- */

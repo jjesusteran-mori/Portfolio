@@ -1,0 +1,106 @@
+.contacts-container {
+    background: var(--primary-dark);
+}
+
+.contacts-container__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacts-container__text h1 {
+    color: var(--primary-orange);
+    padding: 1.2rem 0;
+    text-transform: uppercase;
+}
+
+.contacts-container__text p {
+    color: var(--primary-grey);
+    font-size: 1.2rem;
+}
+
+/* ---------------------inputs------------------- */
+.contacts-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact__contact-me form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contacts-container__text {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.contacts__border input,
+.contacts__border textarea {
+    background: none;
+    color: var(--primary-orange);
+    resize: none;
+    border: 0;
+    border-radius: 0.8rem;
+    border-bottom: 2px solid var(--primary-dark-grey);
+    font-size: 1.2rem;
+    padding-left: 1rem;
+    outline: 0 !important;
+    box-shadow: none !important;
+    margin-bottom: 1rem;
+}
+
+.contacts__border input:focus,
+.contacts__border textarea:focus {
+    background: transparent;
+    color: var(--primary-orange);
+}
+
+.contacts__border textarea {
+    height: 8rem;
+}
+
+.contact__contact-me .contacts__input,
+.contact__contact-me .contacts__description {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contacts__border {
+    border: 2px solid var(--primary-light-grey);
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.5rem 2rem 3rem 2rem;
+    padding: 3rem 1rem 0 1rem;
+    width: 50%;
+}
+
+.user-input {
+    margin: 0.5rem 0;
+}
+
+.success-message {
+    color: var(--primary-green);
+    font-size: 1.1rem;
+}
+
+.error-message {
+    color: var(--primary-red);
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    .contact__contact-me {
+        padding: 0;
+    }
+    .contacts__border {
+        width: 90%;
+        margin: 1.5rem 0.5rem 3rem 0.5rem;
+    }
+}
