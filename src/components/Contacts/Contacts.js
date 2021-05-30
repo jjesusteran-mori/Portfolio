@@ -46,11 +46,11 @@ const Contacts = () => {
     };
 
     return (
-        <div className="contacts-container" id='contact-me'>
+        <div className="contacts-container" id="contact-me">
             <div className="contacts-container__text">
                 <h1>Contact Me</h1>
                 <p>
-                    please fill out the form and describe your project needs and
+                    Please fill out the form and describe your project needs and
                     ill contact you as soon as possible.
                 </p>
                 <span className="success-message">{successMessage}</span>
