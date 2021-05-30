@@ -40,11 +40,6 @@ const Contacts = () => {
             .catch((err) => console.error(`Something went wrong ${err}`));
     };
 
-    const openPopupboxFoodConnect = () => {
-        const content = <></>;
-        PopupboxManager.open({ content });
-    };
-
     return (
         <div className="contacts-container" id="contact-me">
             <div className="contacts-container__text">
