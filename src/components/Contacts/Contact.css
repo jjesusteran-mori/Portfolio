@@ -50,7 +50,7 @@
     padding-left: 1rem;
     outline: 0 !important;
     box-shadow: none !important;
-    margin-bottom: 1rem;
+    margin: 1rem 2rem 1rem 2rem;
 }
 
 .contacts__border input:focus,
@@ -75,14 +75,27 @@
     border-radius: 32px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin: 1.5rem 2rem 3rem 2rem;
-    padding: 3rem 1rem 0 1rem;
-    width: 50%;
+    justify-content: space-between;
+    margin: 1.5rem 2rem 1rem 2rem;
+    padding: 1rem 1rem 1rem 1rem;
+    width: 65%;
+}
+.form-inputs {
+    display: flex;
+}
+
+.contacts__input,
+.contacts__description {
+    padding: 1rem;
 }
 
 .user-input {
     margin: 0.5rem 0;
+}
+
+.contact-me__btn {
+    display: flex;
+    justify-content: center;
 }
 
 .success-message {

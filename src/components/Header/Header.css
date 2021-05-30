@@ -41,7 +41,7 @@
     color: var(--primary-white);
     text-transform: uppercase;
     padding: 0.62rem 0.75rem 0.75rem 0.75rem;
-    margin: 2rem;
+    margin: 0.5rem;
     text-decoration: none;
 }
 .btn-main-offer:hover {
@@ -49,6 +49,10 @@
     background-color: var(--primary-hover-red);
     color: var(--primary-white);
     transition: 0.2s ease-in-out;
+}
+.btn-main-offer a {
+    text-decoration: none;
+    color: var(--primary-white);
 }
 
 @media (max-width: 768px) {

@@ -17,21 +17,21 @@ nav ul li {
     background-color: var(--primary-light-grey);
 }
 
-.navbar-nav > li > a {
+#navbar__nav > li > a {
     margin-right: 0.5rem;
     margin-left: 0.5rem;
-    color: var(--primary-white) !important;
+    color: var(--primary-white);
     padding: 8px 0px;
     border-top: 0.1875rem solid var(--primary-dark);
 }
 
-.navbar-nav > li > a:hover {
+#navbar__nav > li > a:hover {
     border-top: 0.1875rem solid var(--primary-orange);
 }
 
 /* might delete the code below. */
-.navbar-nav > li > a.active,
-.navbar-nav > li > a.active:focus {
+#navbar__nav > li > a.active,
+#navbar__nav > li > a.active:focus {
     border-top: 0.1875rem solid var(--primary-orange);
 }
 
@@ -41,8 +41,11 @@ nav ul li {
         flex-direction: column;
         align-items: center;
     }
-    .navbar-nav > li > a,
-    .navbar-nav > li > a:hover {
+    #navbar__nav > li > a,
+    #navbar__nav > li > a:hover {
         border-top: none;
+    }
+    #navbar__nav > li > a:hover {
+        color: var(--primary-orange);
     }
 }

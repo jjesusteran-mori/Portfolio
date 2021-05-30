@@ -58,7 +58,7 @@ const Portfolio = () => {
     };
 
     return (
-        <div className="portfolio-wrapper">
+        <div className="portfolio-wrapper" id='porfolio'>
             <div className="container">
                 <h1 className="text-uppercase text-center py-3">Portfolio</h1>
                 <div className="image-box-wrapper row">
