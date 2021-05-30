@@ -39,7 +39,6 @@ const Contacts = () => {
             })
             .catch((err) => console.error(`Something went wrong ${err}`));
     };
-
     return (
         <div className="contacts-container" id="contact-me">
             <div className="contacts-container__text">
